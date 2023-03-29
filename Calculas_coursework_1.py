@@ -1,10 +1,10 @@
 import math
 def bernoulli(m):
-    x = 0
+    Bm = 0
     for k in range (m + 1):
         for v in range (k + 1):
-            x = x + (-1)**v *math.comb(k,v) * (v**m / (k +1)) 
-    return x
+            Bm += (-1)**v *math.comb(k,v) * (v**m / (k +1)) 
+    return Bm
 
 def pn(n,x):
     """
@@ -33,9 +33,7 @@ pylab.plot(xv,p1,label="$p1$")
 pylab.plot(xv,p2,label="$p2$")
 pylab.plot(xv,p3,label="$p3$")
 
-pylab.legend(loc='lower left')
+pylab.legend(loc='lower right')
 pylab.xlabel('$x$')
 pylab.ylabel('$y$')
 pylab.show()
-
-
