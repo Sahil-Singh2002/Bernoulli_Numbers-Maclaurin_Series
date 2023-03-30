@@ -1,6 +1,6 @@
-# Calculas coursework 1
+# Calculas
 
-This Coursework focuses on building the algorithm for The Bernoulli numbers B_m where m = 0,1,2,... is sequence of of rational numbers with many applications. The *m*th Bernoulli number can be defined explicitly. Then the Maclaurin series of tan(x) to find the first n terms. Then plot a graph for tan(x), p_1(x), p_2(x) and p_3(x) in range -pi/3 < x < pi/3.
+These code focuses on building the algorithm for The Bernoulli numbers B_m where m = 0,1,2,... is sequence of of rational numbers with many applications. The *m*th Bernoulli number can be defined explicitly. Then the Maclaurin series of tan(x) to find the first n terms. Then plot a graph for tan(x), p_1(x), p_2(x) and p_3(x) in range -pi/3 < x < pi/3.
 
 
 * The function bernoulli(m) where the parameter m is our value for which we are trying to find B_m. Setting x = 0, we begin by using a nested-for-loop for k in between 0 and m and v in between 0 and k. Then having the fomula being input in the nested for-loop to return the value of Bm.
